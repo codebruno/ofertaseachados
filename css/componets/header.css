@@ -1,0 +1,34 @@
+/* Navbar */
+header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradiente para o cabeçalho */
+    color: #fff;
+    z-index: 1030; /* Assegura que o cabeçalho fique acima de outros elementos */
+}
+.navbar {
+    background-color: var(--color-bg-dark); /* Fundo da navbar */
+  }
+  
+  .navbar-brand {
+    font-family: var(--font-title);
+    font-size: var(--font-size-title);
+    background: linear-gradient(45deg, var(--color-primary), var(--color-accent), var(--color-accent-dark));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .navbar-nav .nav-link {
+    color: var(--color-text); /* Cor do texto da navbar */
+    font-size: var(--font-size-base); /* Tamanho base */
+    margin-left: var(--spacing-small); /* Espaçamento entre os links */
+  }
+  
+  /* Links de redes sociais */
+  .social-icons a {
+    transition: transform var(--transition-speed) ease;
+    color: var(--color-text); /* Cor dos ícones sociais */
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2); /* Efeito hover nos ícones */
+  }

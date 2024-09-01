@@ -1,0 +1,7 @@
+.about-section {
+    padding: var(--spacing-large) 0;
+    background-color: var(--color-about-bg); /* Cor de fundo da seção */
+    color: var(--color-about-text); /* Cor principal do texto */
+    margin: var(--spacing-large) 0; /* Margem superior e inferior */
+}
+

@@ -1,0 +1,56 @@
+/* Footer */
+.footer {
+    background-color: var(--color-bg-dark);
+    color: var(--color-text);
+    padding: var(--spacing-medium) 0;
+}
+
+.footer a {
+    color: #fff;
+    transition: color var(--transition-speed);
+}
+
+.footer a:hover {
+    color: var(--color-link-hover);
+}
+
+/* WhatsApp Icon */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366; /* Cor padrão do WhatsApp */
+    color: #fff;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color var(--transition-speed);
+    animation: pulse-animation 1.5s infinite; /* Adiciona a animação de pulso */
+}
+
+/* Efeito ao passar o mouse */
+.whatsapp-icon:hover {
+    background-color: #128C7E; /* Cor de hover do WhatsApp */
+    animation: none; /* Remove a animação de pulso ao passar o mouse */
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: var(--color-primary);
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color var(--transition-speed);
+}
+
+.back-to-top:hover {
+    background-color: var(--color-accent);
+}
+

@@ -1,0 +1,72 @@
+/* Import Componets*/
+@import url('./componets/buttons.css');
+@import url('./componets/footer.css');
+@import url('./componets/header.css');
+@import url('./componets/about.css');
+@import url('./componets/products.css');
+
+/* Import Layout */
+@import url('./componets/layout/banner.css');
+@import url('./componets/layout/spacing.css');
+@import url('./componets/layout/typography.css');
+
+/* Import Utilities */
+@import url('./componets/utilities/animations.css');
+@import url('./componets/utilities/colors.css');
+@import url('./componets/utilities/variables.css');
+
+/* Estilos globais */
+body {
+    font-family: var(--font-body); /* Fonte para o corpo do texto */
+    font-size: var(--font-size-base); /* Tamanho base */
+    line-height: 1.6; /* Altura da linha */
+    color: var(--color-text); /* Cor do texto */
+    background-color: #f8f9fa; /* Fundo padrão do site */
+  }
+
+  /* Footer */
+  footer {
+    background-color: var(--color-bg-dark); /* Fundo do footer */
+    padding: var(--spacing-medium) 0; /* Espaçamento interno */
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: var(--color-link); /* Cor dos links no footer */
+  }
+  
+  footer a:hover {
+    color: var(--color-link-hover); /* Cor dos links no hover */
+    text-decoration: underline;
+  }
+  
+  /* Títulos e textos */
+  h5 {
+    font-family: var(--font-title); /* Fonte dos títulos */
+    font-size: var(--font-size-title); /* Tamanho dos títulos */
+    font-weight: 600; /* Peso dos títulos */
+  }
+  
+  p {
+    font-size: var(--font-size-base); /* Tamanho do texto padrão */
+  }
+  
+  /* Efeitos de hover para ícones das redes sociais */
+  .social-icons a:hover {
+    transform: scale(1.2); /* Efeito de ampliação ao passar o mouse */
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .carousel-item img {
+      height: 300px; /* Altura reduzida para telas menores */
+    }
+  
+    .carousel-caption h5 {
+      font-size: 1.25rem; /* Tamanho dos títulos no carrossel para telas menores */
+    }
+  
+    .carousel-caption p {
+      font-size: 0.875rem; /* Tamanho reduzido das legendas em telas menores */
+    }
+  }

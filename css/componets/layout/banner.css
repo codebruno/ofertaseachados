@@ -1,0 +1,17 @@
+ /* Carrossel de banners */
+ .carousel-item img {
+    height: 500px; /* Altura do banner */
+    object-fit: cover; /* Imagem cobre a área do banner */
+  }
+  
+  .carousel-caption h5 {
+    font-family: var(--font-title); /* Fonte dos títulos */
+    font-size: 2rem; /* Tamanho dos títulos no carrossel */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Sombra no texto para legibilidade */
+  }
+  
+  .carousel-caption p {
+    font-size: var(--font-size-base); /* Tamanho do texto das legendas */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra no texto das legendas */
+  }
+  

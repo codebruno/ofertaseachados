@@ -1,0 +1,47 @@
+/* Variáveis CSS para cores, fontes e tamanhos */
+:root {
+    --color-primary: #ff7e5f; /* Cor principal usada no design */
+    --color-secondary: #feb47b; /* Cor secundária */
+    --color-text: #fff; /* Cor principal do texto */
+    --color-link: #ff7e5f; /* Cor dos links */
+    --color-link-hover: #feb47b; /* Cor dos links ao passar o mouse */
+    --color-bg-dark: #333; /* Cor de fundo escuro para o footer e navbar */
+    --color-accent: #00c9ff; /* Adicionando um azul para contraste */
+    --color-accent-dark: #92fe9d; /* Um verde suave para transição */
+
+    /* Novas cores específicas para abas */
+    --color-tab-bg: #4a4a4a; /* Cor de fundo das abas */
+    --color-tab-text: #e0e0e0; /* Cor do texto das abas */
+    --color-tab-active-bg: #0066cc; /* Cor de fundo da aba ativa */
+    --color-tab-active-text: #ffffff; /* Cor do texto da aba ativa */
+    --color-tab-hover-bg: #005bb5; /* Cor de fundo ao passar o mouse */
+    --color-tab-border: #333; /* Cor da borda das abas */
+
+    --color-about-bg: #f9f9f9; /* Cor de fundo da seção */
+    --color-about-heading: #00c9ff; /* Cor dos títulos (Missão, Visão, Valores) */
+    --color-about-text: #333; /* Cor do texto da seção */
+    --color-about-button-bg: #00c9ff; /* Cor de fundo dos botões do acordeão */
+    --color-about-button-text: #fff; /* Cor do texto dos botões do acordeão */
+    --color-about-button-hover-bg: #feb47b; /* Cor de fundo dos botões do acordeão ao passar o mouse */
+    --color-about-button-hover-text: #fff; /* Cor do texto dos botões do acordeão ao passar o mouse */
+    /* Variáveis para a seção de testemunhos */
+    --color-testimonial-bg: #f0f0f0;
+    --color-testimonial-text: #333;
+    --color-testimonial-heading: #ff7e5f;
+    --color-testimonial-name: #00c9ff;
+    --spacing-testimonial: 1rem;
+  
+    
+    --font-body: 'Roboto', sans-serif; /* Fonte principal */
+    --font-title: 'Poppins', sans-serif; /* Fonte dos títulos */
+    
+    --font-size-base: 1rem; /* Tamanho base do texto */
+    --font-size-title: 1.5rem; /* Tamanho base dos títulos */
+    --font-size-small: 0.875rem; /* Tamanho de fontes pequenas */
+    
+    --spacing-small: 0.5rem; /* Espaçamento pequeno */
+    --spacing-medium: 1rem; /* Espaçamento médio */
+    --spacing-large: 2rem; /* Espaçamento grande */
+    
+    --transition-speed: 0.3s; /* Velocidade padrão para transições */
+  }

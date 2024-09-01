@@ -1,0 +1,30 @@
+.contact-section {
+    background-color: var(--color-bg-dark); /* Cor de fundo escura */
+    color: var(--color-text); /* Cor do texto */
+    padding: var(--spacing-large) 0;
+}
+
+.contact-section h2 {
+    color: var(--color-secondary); /* Cor do título */
+    margin-bottom: var(--spacing-medium);
+}
+
+.contact-section .form-label {
+    color: var(--color-text); /* Cor dos labels */
+}
+
+.contact-section .form-control {
+    border-radius: 5px;
+    border: 1px solid var(--color-primary); /* Cor da borda dos campos */
+    margin-bottom: var(--spacing-medium);
+}
+
+.contact-section .btn-primary {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.contact-section .btn-primary:hover {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+}
