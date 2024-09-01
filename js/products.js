@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Dados dos produtos
     const data = {
         "electronics": [
-            { "title": "Smartphone X", "description": "Smartphone com tela de 6.5 polegadas, 128GB de armazenamento e câmera de 48MP.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 120 },
+            { "title": "Pistola de massagem elétrica, massageador de tecidos profundos", "description": "Tempo de Trabalho: 4-6 horas, Tempo de Carregamento: 3h, Carregamento Via USB.",  "image": "assets/image/massageador.svg", "link": "https://s.shopee.com.br/9pLCB3bNqK", "stars": 5, "sold": 28 },
             { "title": "Smartphone X", "description": "Smartphone com tela de 6.5 polegadas, 128GB de armazenamento e câmera de 48MP.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 120 },
             { "title": "Smartphone X", "description": "Smartphone com tela de 6.5 polegadas, 128GB de armazenamento e câmera de 48MP.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 120 },
             { "title": "Smartphone X", "description": "Smartphone com tela de 6.5 polegadas, 128GB de armazenamento e câmera de 48MP.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 120 },
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Adicione mais produtos conforme necessário
         ],
         "fitness": [
-            { "title": "Tênis de Corrida", "description": "Tênis leve e confortável para corridas e atividades físicas.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 5, "sold": 60 },
+            { "title": "Balança Digital Medidora Corporal Bioimpedância até 180kg", "description": "Dados em tempo real, Sistema de sensores de alta precisão, Compatível: Android 4,4 e IOS 7.0 (Ou superiores)", "image": "assets/image/balanca.svg", "link": "https://s.shopee.com.br/7KdrKbb76D", "stars": 5, "sold": 60 },
             { "title": "Tênis de Corrida", "description": "Tênis leve e confortável para corridas e atividades físicas.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 5, "sold": 60 },
             { "title": "Tênis de Corrida", "description": "Tênis leve e confortável para corridas e atividades físicas.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 5, "sold": 60 },
             { "title": "Tênis de Corrida", "description": "Tênis leve e confortável para corridas e atividades físicas.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 5, "sold": 60 },
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <span class="text-warning">${stars}</span> 
                             <span>${product.sold} vendidos</span>
                         </div>
-                        <a href="${product.link}" class="btn btn-primary">Comprar</a>
+                        <a href="${product.link}" target="_blank" " class="btn btn-primary">Comprar</a>
                     </div>
                 </div>
             `;
