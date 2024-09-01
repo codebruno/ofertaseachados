@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Dados dos produtos
     const data = {
         "electronics": [
-            { "title": "Pistola de massagem elétrica, massageador de tecidos profundos", "description": "Tempo de Trabalho: 4-6 horas, Tempo de Carregamento: 3h, Carregamento Via USB.",  "image": "assets/image/massageador.svg", "link": "https://s.shopee.com.br/9pLCB3bNqK", "stars": 5, "sold": 28 },
+            { "title": "Pistola de Massagem Elétrica para Tecidos Profundos – Alívio Muscular Poderoso", "description": "Autonomia de Bateria: 4 a 6 horas de uso contínuo. Tempo de recarga: 3 horas, com carregamento prático via USB.",  "image": "assets/image/massageador.svg", "link": "https://s.shopee.com.br/9pLCB3bNqK", "stars": 5, "sold": 28 },
             { "title": "Smartphone X", "description": "Smartphone com tela de 6.5 polegadas, 128GB de armazenamento e câmera de 48MP.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 120 },
             { "title": "Smartphone X", "description": "Smartphone com tela de 6.5 polegadas, 128GB de armazenamento e câmera de 48MP.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 120 },
             { "title": "Smartphone X", "description": "Smartphone com tela de 6.5 polegadas, 128GB de armazenamento e câmera de 48MP.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 120 },
@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', function() {
             // Adicione mais produtos conforme necessário
         ],
         "accessories": [
-            { "title": "Capa para Smartphone", "description": "Capa protetora para smartphones com design moderno e resistência.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 3, "sold": 45 },
-            { "title": "Capa para Smartphone", "description": "Capa protetora para smartphones com design moderno e resistência.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 3, "sold": 45 },
+            { "title": "Conjunto de 22 Anéis Geométricos Dourados Retrô – Acessórios Elegantes para Jóias Femininas", "description": "Em estoque ✔ Melhor preço ✔ Alta qualidade ✔ 100% novo ✔.", "image": "assets/image/anel.svg", "link": "https://s.shopee.com.br/5KsnGwRGBO", "stars": 4, "sold": 227 },
+            { "title": "Óculos de Sol UV400 Estilo Europeu e Americano – Unissex, Novo Modelo 2024", "description": "Armação plástica durável, lentes de policarbonato e proteção UV. Alta qualidade, segurança e estilo.", "image": "assets/image/oculos.svg", "link": "https://s.shopee.com.br/LU7Nz63IS", "stars": 5, "sold": 45 },
             { "title": "Capa para Smartphone", "description": "Capa protetora para smartphones com design moderno e resistência.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 3, "sold": 45 },
             { "title": "Capa para Smartphone", "description": "Capa protetora para smartphones com design moderno e resistência.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 3, "sold": 45 },
             { "title": "Capa para Smartphone", "description": "Capa protetora para smartphones com design moderno e resistência.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 3, "sold": 45 },
@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
             // Adicione mais produtos conforme necessário
         ],
         "fitness": [
-            { "title": "Balança Digital Medidora Corporal Bioimpedância até 180kg", "description": "Dados em tempo real, Sistema de sensores de alta precisão, Compatível: Android 4,4 e IOS 7.0 (Ou superiores)", "image": "assets/image/balanca.svg", "link": "https://s.shopee.com.br/7KdrKbb76D", "stars": 5, "sold": 60 },
-            { "title": "Tênis de Corrida", "description": "Tênis leve e confortável para corridas e atividades físicas.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 5, "sold": 60 },
+            { "title": "Balança Digital de Bioimpedância Corporal – Suporta até 180kg", "description": "Monitoramento em tempo real com sistema de sensores de alta precisão. Compatível com Android 4.4 e iOS 7.0 ou versões superiores.", "image": "assets/image/balanca.svg", "link": "https://s.shopee.com.br/7KdrKbb76D", "stars": 5, "sold": 63 },
+            { "title": "Creatina Black Skull Turbo 300g – Potência e Energia da Caveira Preta", "description": "Fórmula com Creatina Monohidratada e Maltodextrina. Produto 100% original, direto da fábrica.", "image": "assets/image/creatina.svg", "link": "https://s.shopee.com.br/8f9FD0Qg6R", "stars": 5, "sold": 98 },
             { "title": "Tênis de Corrida", "description": "Tênis leve e confortável para corridas e atividades físicas.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 5, "sold": 60 },
             { "title": "Tênis de Corrida", "description": "Tênis leve e confortável para corridas e atividades físicas.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 5, "sold": 60 },
             { "title": "Tênis de Corrida", "description": "Tênis leve e confortável para corridas e atividades físicas.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 5, "sold": 60 },
