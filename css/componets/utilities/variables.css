@@ -8,7 +8,6 @@
     --color-bg-dark: #333; /* Cor de fundo escuro para o footer e navbar */
     --color-accent: #00c9ff; /* Adicionando um azul para contraste */
     --color-accent-dark: #92fe9d; /* Um verde suave para transição */
-
     /* Novas cores específicas para abas */
     --color-tab-bg: #4a4a4a; /* Cor de fundo das abas */
     --color-tab-text: #e0e0e0; /* Cor do texto das abas */
@@ -16,7 +15,7 @@
     --color-tab-active-text: #ffffff; /* Cor do texto da aba ativa */
     --color-tab-hover-bg: #005bb5; /* Cor de fundo ao passar o mouse */
     --color-tab-border: #333; /* Cor da borda das abas */
-
+    /* Variáveis para a seção de botoes */
     --color-about-bg: #f9f9f9; /* Cor de fundo da seção */
     --color-about-heading: #00c9ff; /* Cor dos títulos (Missão, Visão, Valores) */
     --color-about-text: #333; /* Cor do texto da seção */
@@ -30,18 +29,13 @@
     --color-testimonial-heading: #ff7e5f;
     --color-testimonial-name: #00c9ff;
     --spacing-testimonial: 1rem;
-  
-    
     --font-body: 'Roboto', sans-serif; /* Fonte principal */
     --font-title: 'Poppins', sans-serif; /* Fonte dos títulos */
-    
     --font-size-base: 1rem; /* Tamanho base do texto */
     --font-size-title: 1.5rem; /* Tamanho base dos títulos */
     --font-size-small: 0.875rem; /* Tamanho de fontes pequenas */
-    
     --spacing-small: 0.5rem; /* Espaçamento pequeno */
     --spacing-medium: 1rem; /* Espaçamento médio */
     --spacing-large: 2rem; /* Espaçamento grande */
-    
     --transition-speed: 0.3s; /* Velocidade padrão para transições */
   }

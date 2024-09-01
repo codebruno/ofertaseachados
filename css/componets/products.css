@@ -8,12 +8,10 @@
     border-radius: var(--spacing-small);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
-  
   /* Estilização dos Links das Abas */
   #productTabs .nav-item {
     flex: 1; /* Faz com que todas as abas tenham o mesmo tamanho */
   }
-  
   #productTabs .nav-link {
     display: block;
     text-align: center;
@@ -26,7 +24,6 @@
     cursor: pointer;
     transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
   }
-  
   /* Aba Ativa */
   #productTabs .nav-link.active {
     background-color: var(--color-tab-active-bg); /* Cor de fundo da aba ativa */
@@ -34,20 +31,17 @@
     color: var(--color-tab-active-text); /* Cor do texto da aba ativa */
     font-weight: bold;
   }
-  
   /* Efeito de Hover nas Abas */
   #productTabs .nav-link:hover {
     background-color: var(--color-tab-hover-bg); /* Cor de fundo ao passar o mouse */
     color: var(--color-tab-active-text); /* Cor do texto ao passar o mouse */
   }
-  
   /* Estilização do Conteúdo das Abas */
   .tab-content {
     background-color: var(--color-bg-dark); /* Cor de fundo do conteúdo das abas */
     border-radius: var(--spacing-small);
     padding: var(--spacing-medium);
   }
-  
   /* Estilização dos Cards de Produtos */
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -55,17 +49,14 @@
     position: relative;
     overflow: hidden;
 }
-
 /* Estilização da Imagem do Card */
 .card-img-top {
     transition: transform var(--transition-speed) ease;
 }
-
 /* Efeito de Zoom na Imagem ao Passar o Mouse */
 .card-img-top:hover {
     transform: scale(1.1); /* Aumenta o zoom na imagem */
 }
-
 /* Responsividade */
 @media (max-width: 768px) {
     #productTabs .nav-item {

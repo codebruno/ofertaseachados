@@ -1,5 +1,5 @@
 /* Import Componets*/
-@import url('./componets/buttons.css');
+@import url('./componets/contact.css');
 @import url('./componets/footer.css');
 @import url('./componets/header.css');
 @import url('./componets/about.css');
@@ -7,12 +7,7 @@
 
 /* Import Layout */
 @import url('./componets/layout/banner.css');
-@import url('./componets/layout/spacing.css');
-@import url('./componets/layout/typography.css');
-
 /* Import Utilities */
-@import url('./componets/utilities/animations.css');
-@import url('./componets/utilities/colors.css');
 @import url('./componets/utilities/variables.css');
 
 /* Estilos globais */
