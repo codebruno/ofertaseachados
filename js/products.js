@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const data = {
         "electronics": [
             { "title": "Pistola de Massagem Elétrica para Tecidos Profundos – Alívio Muscular Poderoso", "description": "Autonomia de Bateria: 4 a 6 horas de uso contínuo. Tempo de recarga: 3 horas, com carregamento prático via USB.",  "image": "assets/image/massageador.svg", "link": "https://s.shopee.com.br/9pLCB3bNqK", "stars": 5, "sold": 28 },
-            { "title": "Smartphone X", "description": "Smartphone com tela de 6.5 polegadas, 128GB de armazenamento e câmera de 48MP.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 120 },
+            { "title": "Fone de Ouvido Bluetooth 5.0 TWS E6s Sem Fio com Microfone e Cancelamento de Ruído - Preto", "description": "Oferece som de qualidade, permitindo atender chamadas com praticidade.", "image": "assets/image/fone.svg", "link": "https://s.shopee.com.br/AUatkzY7wQ", "stars": 5, "sold": 56 },
             { "title": "Smartphone X", "description": "Smartphone com tela de 6.5 polegadas, 128GB de armazenamento e câmera de 48MP.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 120 },
             { "title": "Smartphone X", "description": "Smartphone com tela de 6.5 polegadas, 128GB de armazenamento e câmera de 48MP.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 120 },
             { "title": "Smartphone X", "description": "Smartphone com tela de 6.5 polegadas, 128GB de armazenamento e câmera de 48MP.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 120 },
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Adicione mais produtos conforme necessário
         ],
         "kids": [
-            { "title": "Brinquedo Educativo", "description": "Brinquedo educativo para crianças, estimula o aprendizado e a criatividade.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 55 },
+            { "title": "Inalador AIQUE Ultra-Sônico Portátil", "description": "Nebulizador silencioso de grau médico com volume de névoa ajustável, ideal para tratamentos respiratórios práticos e eficientes.", "image": "assets/image/inalador.svg", "link": "https://s.shopee.com.br/9UiMZY1ZgH", "stars": 5, "sold": 32 },
             { "title": "Brinquedo Educativo", "description": "Brinquedo educativo para crianças, estimula o aprendizado e a criatividade.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 55 },
             { "title": "Brinquedo Educativo", "description": "Brinquedo educativo para crianças, estimula o aprendizado e a criatividade.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 55 },
             { "title": "Brinquedo Educativo", "description": "Brinquedo educativo para crianças, estimula o aprendizado e a criatividade.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 55 },
