@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Adicione mais produtos conforme necessário
         ],
         "pets": [
-            { "title": "Ração para Cães", "description": "Ração balanceada para cães com nutrientes essenciais.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 5, "sold": 100 },
+            { "title": "Escova a Vapor 3 em 1 para Cães e Gatos", "description": "Utiliza tecnologia de vaporização para cuidar dos pelos dos seus pets.", "image": "assets/image/escovapet.svg", "link": "https://s.shopee.com.br/9pLD22ZDE4", "stars": 5, "sold": 103 },
             { "title": "Ração para Cães", "description": "Ração balanceada para cães com nutrientes essenciais.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 5, "sold": 100 },
             { "title": "Ração para Cães", "description": "Ração balanceada para cães com nutrientes essenciais.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 5, "sold": 100 },
             { "title": "Ração para Cães", "description": "Ração balanceada para cães com nutrientes essenciais.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 5, "sold": 100 },
