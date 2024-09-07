@@ -49,8 +49,8 @@ document.addEventListener('DOMContentLoaded', function() {
             // Adicione mais produtos conforme necessário
         ],
         "sports": [
-            { "title": "Par de Meias Esportivas Antiderrapantes para Basquete - Conforto e Desempenho", "description": "Fabricadas com material respirável e solado reforçado para melhor desempenho durante os jogos.", "image": "assets/image/basquete.svg", "link": "https://s.shopee.com.br/2fs9nX1mXR", "stars": 5, "sold": 30 },
-            { "title": "Bola de Futebol", "description": "Bola de futebol de alta qualidade, ideal para treinos e jogos.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 30 },
+            { "title": "Par de Meias Esportivas Antiderrapantes para Basquete - Conforto e Desempenho", "description": "Fabricadas com material respirável e solado reforçado para melhor desempenho durante os jogos.", "image": "assets/image/basquete.svg", "link": "https://s.shopee.com.br/2fs9nX1mXR", "stars": 5, "sold": 314 },
+            { "title": "Calça Jogger Masculina Esportiva Respirável para Academia e Corrida", "description": "Ideal para academia, corrida e estilo de rua. Modelo básico e térmico, perfeito para garantir conforto em qualquer clima.", "image": "assets/image/calca.svg", "link": "https://s.shopee.com.br/9KP3lCcBrT", "stars": 4, "sold": 30 },
             { "title": "Bola de Futebol", "description": "Bola de futebol de alta qualidade, ideal para treinos e jogos.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 30 },
             { "title": "Bola de Futebol", "description": "Bola de futebol de alta qualidade, ideal para treinos e jogos.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 30 },
             { "title": "Bola de Futebol", "description": "Bola de futebol de alta qualidade, ideal para treinos e jogos.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 30 },
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "kids": [
             { "title": "Inalador AIQUE Ultra-Sônico Portátil", "description": "Nebulizador silencioso de grau médico com volume de névoa ajustável, ideal para tratamentos respiratórios práticos e eficientes.", "image": "assets/image/inalador.svg", "link": "https://s.shopee.com.br/9UiMZY1ZgH", "stars": 5, "sold": 32 },
             { "title": "Termômetro Digital Infravermelho - Medição Precisa", "description": "Leitura rápida em 1 segundo com precisão de ±0,4°F. Recomendado por profissionais de saúde.", "image": "assets/image/termometro.svg", "link": "https://s.shopee.com.br/4pwcnq6nO2", "stars": 5, "sold": 55 },
-            { "title": "Brinquedo Educativo", "description": "Brinquedo educativo para crianças, estimula o aprendizado e a criatividade.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 55 },
+            { "title": "Extrator de Leite Automático para Amamentação", "description": "Com 9 velocidades ajustáveis, oferecendo massagem, bombeamento e uma extração confortável.", "image": "assets/image/mama.svg", "link": "https://s.shopee.com.br/4VJq76f29g", "stars": 5, "sold": 237 },
             { "title": "Brinquedo Educativo", "description": "Brinquedo educativo para crianças, estimula o aprendizado e a criatividade.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 55 },
             { "title": "Brinquedo Educativo", "description": "Brinquedo educativo para crianças, estimula o aprendizado e a criatividade.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 55 },
             { "title": "Brinquedo Educativo", "description": "Brinquedo educativo para crianças, estimula o aprendizado e a criatividade.", "image": "https://via.placeholder.com/300x200", "link": "#", "stars": 4, "sold": 55 },
